@@ -20,30 +20,30 @@ namespace Interfaces
     {
         public void SendMessage()
         {
-            Console.WriteLine("Message send via WhatsApp");
+            Console.WriteLine("Message send via WhatsApp!");
         }
         public void ReceiveMessage()
         {
-            Console.WriteLine("Message receive via WhatsApp");
+            Console.WriteLine("Message receive via WhatsApp!");
         }
     }
     class Telegram : IChatSystem, IVoiceChat        //Multiple inheritence done using Interface
     {
         public void SendMessage()
         {
-            Console.WriteLine("Message send via Telegram");
+            Console.WriteLine("Message send via Telegram!");
         }
         public void ReceiveMessage()
         {
-            Console.WriteLine("Message receive via Telegram");
+            Console.WriteLine("Message receive via Telegram!");
         }
         public void SendVoiceMessage()
         {
-            Console.WriteLine("Voice Message send via Telegram");
+            Console.WriteLine("Voice Message send via Telegram!");
         }
         public void ReceiveVoiceMessage()
         {
-            Console.WriteLine("Voice Message receive via Telegram");
+            Console.WriteLine("Voice Message receive via Telegram!");
         }
     }
 }
